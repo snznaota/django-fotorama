@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 from image_cropping import ImageCroppingMixin
-from django_fotorama.models import FotoramaSlider
+from .models import FotoramaSlider
 
 
 class FotoramaSliderAdmin(ImageCroppingMixin, admin.ModelAdmin):
